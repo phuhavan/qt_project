@@ -1,0 +1,15 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>gen_test.qml</file>
+        <file>gen_test_synonym.qml</file>
+        <file>lesson_button.qml</file>
+        <file>lesson_form.qml</file>
+        <file>scatter_rect.qml</file>
+        <file>sp_message.qml</file>
+        <file>synonym_form.qml</file>
+        <file>text_run.qml</file>
+        <file>word.qml</file>
+        <file>word_synonym.qml</file>
+    </qresource>
+</RCC>
