@@ -15,6 +15,7 @@ Rectangle {
     height: Screen.height
     width: Screen.width
     color: "#f4f0ea"
+    property alias flashmouseArea: flashmouseArea
     visible: true
 
     property int list_height: 10
@@ -3573,6 +3574,11 @@ Rectangle {
                 }
             }
         }
+    }
+    
+    RadioButton {
+        id: radioButton
+        text: qsTr("Radio Button")
     }
 }
 

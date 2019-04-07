@@ -2,10 +2,12 @@
     <qresource prefix="/">
         <file>main.qml</file>
     </qresource>
-    <qresource prefix="/files"/>
     <qresource prefix="/resources">
-        <file>images/background3.jpg</file>
+        <file>images/hello/2.jpg</file>
+        <file>images/hello/3.jpg</file>
+        <file>images/hello/1.jpg</file>
+        <file>images/challenge/2.gif</file>
+        <file>images/challenge/1.jpg</file>
+        <file>images/challenge/3.jpg</file>
     </qresource>
-    <qresource prefix="/dsad" lang="dsadsa"/>
-    <qresource prefix="/he"/>
 </RCC>

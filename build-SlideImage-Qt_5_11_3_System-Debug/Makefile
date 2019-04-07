@@ -384,7 +384,12 @@ compiler_rcc_clean:
 qrc_qml.cpp: ../SlideImage/qml.qrc \
 		/usr/lib64/qt5/bin/rcc \
 		../SlideImage/main.qml \
-		../SlideImage/images/background3.jpg
+		../SlideImage/images/hello/3.jpg \
+		../SlideImage/images/hello/2.jpg \
+		../SlideImage/images/hello/1.jpg \
+		../SlideImage/images/challenge/2.gif \
+		../SlideImage/images/challenge/3.jpg \
+		../SlideImage/images/challenge/1.jpg
 	/usr/lib64/qt5/bin/rcc -name qml ../SlideImage/qml.qrc -o qrc_qml.cpp
 
 compiler_moc_predefs_make_all: moc_predefs.h
