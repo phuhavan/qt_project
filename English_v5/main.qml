@@ -12,8 +12,8 @@ Window {
     visible: true
     x: 0
     y: 0
-    width: Screen.width
-    height: Screen.height
+    width: 640
+    height: 480
     title: "Login"
     color: "#f5f2ee"
 
@@ -21,7 +21,7 @@ Window {
         id: background_image
         width: root_window.width
         height: root_window.height
-        source: "../English_v4/resource/login/background3.jpg"
+        source: "resource/login/background3.jpg"
 
     }
 

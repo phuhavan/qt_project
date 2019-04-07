@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+    </qresource>
+    <qresource prefix="/files"/>
+    <qresource prefix="/resources">
+        <file>images/background3.jpg</file>
+    </qresource>
+    <qresource prefix="/dsad" lang="dsadsa"/>
+    <qresource prefix="/he"/>
+</RCC>

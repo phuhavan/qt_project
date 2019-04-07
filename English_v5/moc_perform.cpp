@@ -1,7 +1,7 @@
 /****************************************************************************
 ** Meta object code from reading C++ file 'perform.h'
 **
-** Created by: The Qt Meta Object Compiler version 67 (Qt 5.5.1)
+** Created by: The Qt Meta Object Compiler version 67 (Qt 5.11.3)
 **
 ** WARNING! All changes made in this file will be lost!
 *****************************************************************************/
@@ -13,12 +13,14 @@
 #if !defined(Q_MOC_OUTPUT_REVISION)
 #error "The header file 'perform.h' doesn't include <QObject>."
 #elif Q_MOC_OUTPUT_REVISION != 67
-#error "This file was generated using the moc from 5.5.1. It"
+#error "This file was generated using the moc from 5.11.3. It"
 #error "cannot be used with the include files from this version of Qt."
 #error "(The moc has changed too much.)"
 #endif
 
 QT_BEGIN_MOC_NAMESPACE
+QT_WARNING_PUSH
+QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_perform_t {
     QByteArrayData data[38];
     char stringdata0[323];
@@ -191,49 +193,54 @@ void perform::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, voi
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
         int *result = reinterpret_cast<int *>(_a[0]);
-        void **func = reinterpret_cast<void **>(_a[1]);
         {
-            typedef void (perform::*_t)(int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&perform::sendToQml)) {
+            using _t = void (perform::*)(int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&perform::sendToQml)) {
                 *result = 0;
+                return;
             }
         }
         {
-            typedef void (perform::*_t)(int , int , int , int );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&perform::sendDataToQml)) {
+            using _t = void (perform::*)(int , int , int , int );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&perform::sendDataToQml)) {
                 *result = 1;
+                return;
             }
         }
         {
-            typedef void (perform::*_t)(QList<QString> , QList<QString> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&perform::syncData)) {
+            using _t = void (perform::*)(QList<QString> , QList<QString> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&perform::syncData)) {
                 *result = 2;
+                return;
             }
         }
         {
-            typedef void (perform::*_t)(QList<QString> , QList<QString> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&perform::syncData_heli)) {
+            using _t = void (perform::*)(QList<QString> , QList<QString> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&perform::syncData_heli)) {
                 *result = 3;
+                return;
             }
         }
         {
-            typedef void (perform::*_t)(QList<QString> , QList<int> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&perform::syncData_scatter)) {
+            using _t = void (perform::*)(QList<QString> , QList<int> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&perform::syncData_scatter)) {
                 *result = 4;
+                return;
             }
         }
         {
-            typedef void (perform::*_t)(QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> );
-            if (*reinterpret_cast<_t *>(func) == static_cast<_t>(&perform::syncData_synonym)) {
+            using _t = void (perform::*)(QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> , QList<QString> );
+            if (*reinterpret_cast<_t *>(_a[1]) == static_cast<_t>(&perform::syncData_synonym)) {
                 *result = 5;
+                return;
             }
         }
     }
 }
 
-const QMetaObject perform::staticMetaObject = {
+QT_INIT_METAOBJECT const QMetaObject perform::staticMetaObject = {
     { &QObject::staticMetaObject, qt_meta_stringdata_perform.data,
-      qt_meta_data_perform,  qt_static_metacall, Q_NULLPTR, Q_NULLPTR}
+      qt_meta_data_perform,  qt_static_metacall, nullptr, nullptr}
 };
 
 
@@ -244,9 +251,9 @@ const QMetaObject *perform::metaObject() const
 
 void *perform::qt_metacast(const char *_clname)
 {
-    if (!_clname) return Q_NULLPTR;
+    if (!_clname) return nullptr;
     if (!strcmp(_clname, qt_meta_stringdata_perform.stringdata0))
-        return static_cast<void*>(const_cast< perform*>(this));
+        return static_cast<void*>(this);
     return QObject::qt_metacast(_clname);
 }
 
@@ -270,42 +277,43 @@ int perform::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
 // SIGNAL 0
 void perform::sendToQml(int _t1)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)) };
     QMetaObject::activate(this, &staticMetaObject, 0, _a);
 }
 
 // SIGNAL 1
 void perform::sendDataToQml(int _t1, int _t2, int _t3, int _t4)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)) };
     QMetaObject::activate(this, &staticMetaObject, 1, _a);
 }
 
 // SIGNAL 2
 void perform::syncData(QList<QString> _t1, QList<QString> _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 2, _a);
 }
 
 // SIGNAL 3
 void perform::syncData_heli(QList<QString> _t1, QList<QString> _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 3, _a);
 }
 
 // SIGNAL 4
 void perform::syncData_scatter(QList<QString> _t1, QList<int> _t2)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)) };
     QMetaObject::activate(this, &staticMetaObject, 4, _a);
 }
 
 // SIGNAL 5
 void perform::syncData_synonym(QList<QString> _t1, QList<QString> _t2, QList<QString> _t3, QList<QString> _t4, QList<QString> _t5, QList<QString> _t6, QList<QString> _t7, QList<QString> _t8, QList<QString> _t9, QList<QString> _t10)
 {
-    void *_a[] = { Q_NULLPTR, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)), const_cast<void*>(reinterpret_cast<const void*>(&_t9)), const_cast<void*>(reinterpret_cast<const void*>(&_t10)) };
+    void *_a[] = { nullptr, const_cast<void*>(reinterpret_cast<const void*>(&_t1)), const_cast<void*>(reinterpret_cast<const void*>(&_t2)), const_cast<void*>(reinterpret_cast<const void*>(&_t3)), const_cast<void*>(reinterpret_cast<const void*>(&_t4)), const_cast<void*>(reinterpret_cast<const void*>(&_t5)), const_cast<void*>(reinterpret_cast<const void*>(&_t6)), const_cast<void*>(reinterpret_cast<const void*>(&_t7)), const_cast<void*>(reinterpret_cast<const void*>(&_t8)), const_cast<void*>(reinterpret_cast<const void*>(&_t9)), const_cast<void*>(reinterpret_cast<const void*>(&_t10)) };
     QMetaObject::activate(this, &staticMetaObject, 5, _a);
 }
+QT_WARNING_POP
 QT_END_MOC_NAMESPACE
