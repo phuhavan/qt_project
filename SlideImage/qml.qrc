@@ -9,5 +9,12 @@
         <file>images/challenge/2.gif</file>
         <file>images/challenge/1.jpg</file>
         <file>images/challenge/3.jpg</file>
+        <file>images/court/3.jpg</file>
+        <file>images/court/2.jpg</file>
+        <file>images/court/1.jpg</file>
+        <file>images/labour/3.jpg</file>
+        <file>images/labour/2.jpg</file>
+        <file>images/labour/1.jpg</file>
+        <file>login/hello.png</file>
     </qresource>
 </RCC>
